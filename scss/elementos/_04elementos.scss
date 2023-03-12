@@ -1,0 +1,48 @@
+@mixin font {
+    font-family: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+img{
+    max-width:100%;
+    }
+    section{
+        text-align: center;
+    }
+    header{
+        text-align: center;
+    }
+    article{
+        text-align: center;
+    }
+    aside{
+        text-align: center;
+    }
+
+h1{
+    @include font;
+	font-size: 72px;
+
+}
+h2{ font-size:48px;
+    @include font;
+}
+h3{
+     @include font;
+     font-size:32px;
+}
+
+h4{
+    @include font;
+    font-size:18px;
+    color:rgb(2, 106, 13);
+}
+
+p{
+    @include font;
+    font-size:16px;
+    letter-spacing: 0.5px;
+}
+
+.especial{}

@@ -1,0 +1,41 @@
+{
+ 
+  "name": "proyectofinal",
+ 
+  "version": "2.1.6",
+ 
+  "description": "Carrera Desarrollo de Aplicaciones - Curso Desarrollo Web - Comision 36440",
+ 
+  "main": "index.js",
+ 
+  "scripts": {
+ 
+   
+  "crear-css": "node-sass --include-path scss scss/main.scss css/main.css",
+ 
+   
+  "ver-css": "nodemon -e scss -x \"npm run build-css\""
+ 
+  },
+ 
+  "author": "Manuel Lus",
+ 
+  "license": "ISC",
+ 
+  "devDependencies": {
+ 
+   
+  "node-sass": "^8.0.0",
+ 
+   
+  "nodemon": "^2.0.20"
+ 
+  },
+ 
+  "dependencies": {
+ 
+   
+  "owl.carousel": "^2.3.4"
+ 
+  }
+}
